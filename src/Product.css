@@ -1,0 +1,33 @@
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Divide equally into 3 columns */
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+  }
+  
+  .product-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .size-buttons {
+    margin-top: 10px;
+  }
+  
+  .size-buttons button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .size-buttons button.selected {
+    background-color: #333;
+    color: #fff;
+    border-color: #333;
+  }
+  
