@@ -1,0 +1,26 @@
+.ordered-items {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.ordered-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ordered-items li {
+  margin-bottom: 10px;
+}
+  
+.ordered-items button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
